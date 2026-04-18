@@ -1,0 +1,12 @@
+[package]
+title = "Quantum Simulation Tool"
+description = "A procedural generator for Quantum Qubit Arrays and Monte Carlo measurements."
+version = "1.0.0"
+authors = ["Mamdouh"]
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.physx" = {}
+
+[python.module]
+name = "quantum.omni.tool"
